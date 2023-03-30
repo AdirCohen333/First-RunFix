@@ -14,3 +14,16 @@ function getRandomInt(min, max) {
 
 
 
+function playsound(){
+    var sound = new Audio('bombDefuse.mp3')
+    sound.play()
+    }
+    function playsoundBoom(){
+        var sound = new Audio('Counter Strike Explosion sounds.mp3')
+        sound.play()
+        }
+
+        function playsoundSecret(){
+            var sound = new Audio('eastereggStav2.mp3')
+            sound.play()
+            }

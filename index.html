@@ -7,22 +7,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body onload="onInitGame()">
+<body onkeyup="onHandleKey(event)" onload="onInitGame(1)"> 
     <h1>Its a War find the MineSweeper</h1>
+    <h4>dont worry first step is safe</h4>
+    <h5>press enter to restart (or f5 you lazy *****)</h5>
     <table>
+        <div>
+            <button class="lvl"onclick="onInitGame(1)">Beginner 4*4(2)</button>
+            <button class="lvl"onclick="onInitGame(2)">Normasl 8*8(14)</button>
+            <button class="lvl"onclick="onInitGame(3)">MdaFka 12*12(32)</button>
+        </div>
 
         <tbody class="board">
             <span></span>
         </tbody>
 
     </table>
-    <div class1="Lives"> 
-    <!-- <div>"AdirC"</div> -->
+    
+    
     <div class="hide restartGame"> 
         <h1>GameOver</h1>
-        <button class="restartgame" onclick="restartGame()">😄click to restart</button>
-        
+        <button class="restartgame" onclick="restartGame()">😄click to restart (or prees Enter at any time)</button>
     </div>
+    <!-- <div>box</div> -->
+    <div class = "lives" Lives Left:></div>
+    <img class="heart" src="heart1.jpg" >
+    <img class="heart" src="heart2.jpg" >
+    <img class="heart" src="heart3.jpg" >
+    <img class="signture" src="signture.jpg"alt="AdirCohen">
+    <!-- <button class="restartgame" onclick="restartGame()">😄click to restart</button> -->
     <script src="js/util.js"></script>
     <script src="js/app.js"></script>
 </body>
