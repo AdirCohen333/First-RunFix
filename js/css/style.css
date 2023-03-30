@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(200, 129, 30, 0.5),
+        rgba(0, 255, 51, 0.5)
+        ), url("catfront.png");
+        
+    }
+
+img.signture{
+    width: 400px;
+    margin-left: auto;
+  margin-right: auto;
+  border: 100;
+  border-radius: 50%;
+}
+img.heart{
+    width: 50px;
+    display: block;
+  margin-left: 85px;
+  /* margin-right: auto; */
+  /* margin-bottom:500; */
+  /* border: 200px; */
+  border-radius: 20%;
+display:none;
+  
+}
+    
+    script {
+        text-align: center;
+    }
+    .liveBox{
+        width: 50px;
+        height: 50px;
+
+
+
+    }
+.cell {
+    
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.cell img {
+    width: 48px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+.mine{
+    background-color: gray;
+
+
+}
+.hide{
+display: none;
+}
+.hide1{
+    opacity: 0%;
+    }
+
+.restartgame{
+    width: 420px;
+    height: 40px;
+    background-color: rgb(214, 22, 22);
+}
+
+
+
+
